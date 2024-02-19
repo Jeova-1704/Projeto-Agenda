@@ -8,3 +8,4 @@ class Contact(models.Model):
     email = models.EmailField(max_length=250, blank=True)
     created_date = models.DateTimeField(default=timezone.now)
     description = models.TextField(blank=True)
+    
